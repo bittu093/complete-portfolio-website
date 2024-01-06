@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>login here to bittu sha portfolio</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="nav-left">
+          <img src="img/logo 1.png" alt="" />
+        </div>
+        <div class="nav-center">
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about us.html">About us</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="sign.html">sign up</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <input
+            id="inp"
+            type="text"
+            name="search here"
+            placeholder="search here" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <img src="https://source.unsplash.com/featured?laptop" alt="" />
+
+      <div class="section">
+        <div class="sec-1">
+          <section class="first-section">
+            <p>Hi,im <span>bittu sha</span></p>
+            <p>and im a passioned</p>
+            <span id="element"></span>
+            <br />
+            <button class="btnn"><label>front end</label></button>
+            <button class="btnn1"><label>back end</label></button>
+            <button class="btnn2"><label>data scince</label></button>
+          </section>
+        </div>
+        <div class="sec-2">
+          <img src="img/bg.png" alt="" />
+        </div>
+      </div>
+
+      <!-- login/signup -->
+
+    <div class="log">
+        <h1>Login/signup</h1>
+        <label>Email:</label>
+        <br />
+        <input type="email" name="email" placeholder="enter@gmail.com" />
+        <label>Password:</label>
+        <br />
+        <input type="password" name="password" placeholder="pas@123#" />
+        <br />
+        <input class="chb" type="checkbox" name="remind me" id="" />
+        <label class="chb">Remind me</label>
+        <br />
+        <button class="log-btn">login</button>
+        <div class="log-crt">
+            <li><a id="log-crt1" href="">forget-password</a></li>
+            <li><a class="log-crt1" href="sign.html">Create your Account</a></li>
+        </div>
+        <div class="login-5">
+            <i class="icon fa-brands fa-youtube"></i>
+            <i class="icon fa-brands fa-instagram"></i>
+            <i class="icon fa-brands fa-facebook"></i>
+        </div>    
+    </div>
+
+        <!-- footer -->
+
+        <div class="footer">
+            <div class="footer-1">
+                <i class="icon-1 fa-brands fa-youtube"></i>
+                <i class="icon-1 fa-brands fa-instagram"></i>
+                <i class="icon-1 fa-brands fa-facebook"></i>
+            </div>    
+            <p>copyright alumini 2023</p>
+        </div> 
+
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed("#element", {
+                strings: ["web developer", "data scince", "video editor"],
+                typeSpeed: 50,
+        });
+        </script>
+</body>
+</html>
